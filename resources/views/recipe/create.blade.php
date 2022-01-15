@@ -46,8 +46,9 @@
             name="category_id"
             class="block w-full px-4 py-2 border rounded"
         >
-            @foreach ($categories as $category)
             <option>Choose an option</option>
+            @foreach ($categories as $category)
+
             <option>{{ $category->name }}</option>
             @endforeach
         </select>

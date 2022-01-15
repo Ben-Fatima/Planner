@@ -171,7 +171,7 @@
                     >
                         {{$recipe->description}}
                     </p>
-                    <ul class="flex space-x-2">
+                    <ul class="flex space-x-2 flex-wrap">
                         @foreach ($recipe->ingredients as $ingredient)
                         <li>
                             <button

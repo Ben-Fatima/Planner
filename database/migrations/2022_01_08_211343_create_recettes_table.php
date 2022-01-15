@@ -17,7 +17,7 @@ class CreateRecettesTable extends Migration
             $table->id();
             $table->foreignId('category_id');
             $table->string('name');
-            $table->string('description');
+            $table->text('description');
             $table->string('preparation_time');
             $table->text('thumbnail')->nullable();
             $table->timestamps();
